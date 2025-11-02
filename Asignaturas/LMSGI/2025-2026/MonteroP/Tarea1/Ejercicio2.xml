@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+  <persona>
+    <nombre>Pedro Luis</nombre>
+    <apellidos>Moreno Algete</apellidos>
+    <direccion>
+      <calle>Calle Concepción</calle>
+      <numero>24</numero>
+      <ciudad>Logroño</ciudad>
+      <provincia>La Rioja</provincia>
+      <codpostal>26190</codpostal>    
+    </direccion>
+    <telefonos>
+      <telcasa>997231232</telcasa>
+      <telmovil>666238293</telmovil>
+      <teltrabajo>982347623</teltrabajo>    
+    </telefonos>
+  </persona>
+  <persona>
+    <nombre>Marcos</nombre>
+    <apellidos>Algorta Márquez</apellidos>
+    <direccion>
+      <calle>Calle Vicente Calderón</calle>
+      <numero>2</numero>
+      <ciudad>Albelda de Iregua</ciudad>
+      <provincia>La Rioja</provincia>
+      <codpostal>26195</codpostal>    
+    </direccion>
+    <telefonos>
+      <telcasa>997223432</telcasa>
+      <telmovil>663454293</telmovil>
+      <teltrabajo>984547623</teltrabajo>    
+    </telefonos>
+  </persona>
+</agenda>
