@@ -1,5 +1,7 @@
 # Enunciado Tarea 1.
 
+### Ejercicio 1
+
 1.- Indica por qué  los siguientes ejemplos XML son incorrectos.
 
 Ejercicio 1a)
@@ -46,6 +48,7 @@ La valoración de este ejercicio será de un total de 2 puntos.
 
 Tiempo de resolución aproximado: 15'.
 
+#### [Solución](Tarea_01_ejercicio1.pdf)
 
 ### Ejercicio 2
 
@@ -57,6 +60,7 @@ La valoración de este ejercicio será de un total de 3 puntos.
 
 Tiempo de resolución aproximado: 2 h.
 
+#### [Solución](Ejercicio2.xml)
 
 ### Ejercicio 3
 
@@ -89,3 +93,6 @@ La valoración de este ejercicio será de un total de 5 puntos.
 Tiempo de resolución aproximado: 2,5 h.
 
 Nota aclaratoria: A efectos de realizar búsquedas por ingredientes: "1 cucharada de harina" no es un ingrediente. En este caso el ingrediente es "harina", el dato "1 cucharada" se puede poner como un subelemento o un atributo.
+
+
+#### [Solución](Ejercicio3.xml)
