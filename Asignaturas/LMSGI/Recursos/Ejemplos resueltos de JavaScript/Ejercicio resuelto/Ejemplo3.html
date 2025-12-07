@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Ejemplo3</title>
+		<script>
+			function CambioColor(micolor) {
+				const parrafo = document.getElementById("saluda");
+				parrafo.textContent = "¡Hola, mundo!";
+				parrafo.style.color = micolor;
+			}
+		</script>
+	</head>
+	<body onload ="CambioColor('Blue');">
+		<p id="saluda">aaaadios</p>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>EjemploNuevoElementoNumerado</title>
+		<script>
+			function funcion() {
+				var i=0;
+				for (let i = 1; i < 6; i++) {    // inicialmente i vale 1 e incrementará de uno en uno hasta menor que 6
+					const nuevo = document.createElement("p");
+					nuevo.textContent = "Párrafo nuevo número: " + i;
+					document.body.appendChild(nuevo);
+				}
+			}	
+		</script>
+	</head>
+	<body>
+		<p id="parrafo">Este texto es el del párrafo inicial</p>
+		<button type="button" onclick="funcion()">Pulsa aquí</button>
+	</body>
+</html>

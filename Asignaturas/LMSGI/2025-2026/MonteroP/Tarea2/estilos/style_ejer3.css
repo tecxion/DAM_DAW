@@ -1,0 +1,111 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 3*/
+
+h3{
+	text-align: center;
+}
+
+nav a{
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+li a:hover{
+	color: white;
+}
+
+.titulo {
+	text-align: center;
+	font-weight: 21px;
+	color: white;
+	background-color: #2E2300;
+	padding: 10px;
+	border: 1px solid #C05805;
+	border-radius: 10px;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+}
+	
+.piepag {
+	background-color: #DB9501;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid #000000;
+}
+		
+.menu {
+	text-align: center;
+	padding: 5px;
+	margin: 5px auto;
+	color: black;
+}
+	
+.principal{
+	display: flex;
+	background-color: #CCCCCC;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.datos {
+	width: 30%;
+	background-color: white;
+}
+
+.curriculo {
+	width: 70%;
+}
+	
+.fotoc {
+	display: block;
+	margin: 20px auto;
+	width: auto;
+	height: 100px;
+}
+	
+.titulodp {
+	text-align: center;
+}
+		
+.tbestudios {
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	border: 1px solid black;
+}
+	
+.tbestudios th, .tbestudios td {
+	border: 1px solid black;
+	padding: 5px;
+}
+		
+.tbestudios th{
+	background-color: #73605B;
+	color: white;
+}
+		
+.aficiones {
+	text-align: center;
+	background-color: #73605B;
+	padding: 10px;
+	margin: 20px auto;
+	border: 0.5px solid black;
+	color: white;
+}
+
+#portfolio{
+	text-align: center;
+}
+
+#portfolio ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+#portfolio li{
+	text-align: center;
+}

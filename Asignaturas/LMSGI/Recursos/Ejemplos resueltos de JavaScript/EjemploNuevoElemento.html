@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>EjemploNuevoElemento</title>
+		<script>
+			function funcion() {
+				const nuevo = document.createElement("p");
+				nuevo.textContent = "Nuevo párrafo.";
+				document.body.appendChild(nuevo);
+			}
+		</script>
+	</head>
+	<body>
+		<p id="parrafo">Este texto es el del párrafo inicial</p>
+		<button type="button" onclick="funcion()">Pulsa aquí</button>
+	</body>
+</html>

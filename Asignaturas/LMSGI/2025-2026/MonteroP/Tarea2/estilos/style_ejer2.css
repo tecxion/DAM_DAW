@@ -1,0 +1,115 @@
+header {
+	padding: 10px;
+	text-align: center;
+	background-color: #F1F1F2;
+	border-radius: 10px;
+		box-shadow:3px 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+form {
+	padding: 20px;
+	text-align: left;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 20px auto;
+	background-color: #F1F1F2;
+	box-shadow:0 10px 5px rgba(0,0,0,0.5);
+	/* Posible fondo del formulario.
+	background:
+		linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+		url("../images/fondo.jpg");
+	background-position: center;*/
+}
+
+body{
+	color: black;
+	background:
+		linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+		url("../images/hotel_rural.jpg");		
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+nav a{
+	margin: 0 20px;
+	color: #BCBABC;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #1995AD;
+}
+
+
+footer {
+	padding: 15px;
+	text-align: center;
+	background-color: #375E97;
+	color: white;
+	border-radius: 10px;
+	box-shadow:0 10px 5px rgba(0,0,0,0.5);
+}
+
+
+textarea {
+	width: 90%;
+	height: 100px;
+	padding: 10px;
+}
+
+.comentario {
+	margin: 20px 0px;	
+}
+
+.habitacionstyle {
+	padding: 10px 10px;
+	border: 1px solid black;
+}
+
+.botones {
+	text-align: center;
+}
+
+.btn_enviar {
+	background-color: green;
+	color: white;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.btn_reset {
+	padding: 5px;
+	background-color: red;
+	margin-left: 10px;
+	color:white;
+	border-radius: 10px;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+
+}
+
+.requerido {
+	text-align: center;
+	color: red;
+	font-size: 10px;
+	
+}
+
+.formulario {
+	display: flex;
+}
+
+#fecha_entrada{
+	text-align: center;
+}
+
+#creador{
+	color: white;
+}
+
+#creador:hover{
+	color: gray;
+}

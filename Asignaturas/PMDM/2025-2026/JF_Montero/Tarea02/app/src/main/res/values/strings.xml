@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">kilometers</string>
+    <string-array name="modelos">
+        <item>Seleccione un vehículo</item>
+        <item>Tesla Model 3</item>
+        <item>Fiat 500e</item>
+        <item>Renault Zoe</item>
+        <item>Hyunday Kona</item></string-array>
+</resources>

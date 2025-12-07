@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Reserva</title>
+	<link rel="stylesheet" type="text/css" href="estilos/style_ejer2.css">
+	</head>
+	
+	<body>
+		<header>
+		<h1>RESERVA DE HABITACIÓN</h1>
+		<nav>
+			<a href="#">Inicio</a>
+			<a href="#">Reservar</a>
+			<a href="#">Conócenos</a>
+			<a href="#">Habitaciones</a>
+			<a href="Ejercicio1.html">Gastronomía</a>
+		</nav>
+		</header>
+		<main>
+			<div class="formulario">
+				<form name="reservahotel" action="enviarformulario.php" method="post">
+					<fieldset>
+						<legend>
+							Datos de Reserva
+						</legend>
+							<p>Nombre*: <input type="text" name="nombre" size="20" maxlength="20" placeholder="Pepe" required>
+							Apellidos*: <input type="text" name="apellidos" size="20" maxlength="20" placeholder="García Pérez" required></p>
+							<p>Teléfono*: <input type="text" name="telefono" size="20" maxlength="20" placeholder="666012012" required>
+							Email*: <input type="email" name="email" size="20" maxlength="20" placeholder="tuemail@email.com" required></p>
+							<p>Número de Noches*: <input type="text" name="noches" size="5" maxlength="2" placeholder="días" required></p>
+							
+							<fieldset>
+								<legend>Seleccione fecha de entrada*: </legend>
+									<section id="fecha_entrada">
+										<select name="dia" required> <option value="">Selecciona día</option>
+										<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+										<option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+										<option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+										<option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
+										<option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+										<option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option>
+										<option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option>
+										<option value="29">29</option><option value="30">30</option><option value="31">31</option>
+										</select>
+								
+										<select name="mes" required>
+										<option value="">Selecciona mes</option>
+										<option value="enero">Enero</option><option value="febrero">Febrero</option><option value="marzo">Marzo</option>
+										<option value="abril">Abril</option><option value="mayo">Mayo</option><option value="junio">Junio</option>
+										<option value="julio">Julio</option><option value="agosto">agosto</option><option value="septiembre">Septiembre</option>
+										<option value="octubre">Octubre</option><option value="noviembre">Noviembre</option><option value="diciembre">Diciembre</option>
+										</select>
+									</section>
+							</fieldset>
+							<fieldset>
+								<legend>Otros Datos</legend>
+									<p>Seleccione tipo de habitación:
+										<input type="radio" name="habitacion">Simple
+										<input type="radio" name="habitacion">Doble
+										<input type="radio" name="habitacion">Matrimonio
+									<br>
+									<br>
+									Seleccione una o varias opciones:
+										<input type="checkbox" name="desayuno">Desayuno
+										<input type="checkbox" name="comida">Comida
+										<input type="checkbox" name="cena">cena
+									<br>
+									<br>
+									¿Marque si desea cama supletoria?<input type="checkbox" name="cama">	
+									</p>
+							</fieldset>
+							<div class="comentario">
+							Comentarios:<br><textarea name="comentario" placeholder="escribe aquí si tienes alguna petición especial"></textarea>
+							</div>
+							<div class="botones">
+								<input type="submit" value="Enviar" class="btn_enviar">
+								<input type="reset" value="Limpiar formulario" class="btn_reset">
+							</div>
+							<p class="requerido">Los campos con * son obligatorios.</p>
+					</fieldset>
+				</form>
+			</div>
+		</main>
+	</body>
+	<footer>
+		<h5>
+			<a href="Ejercicio3.html" id="creador">- Creador Jose F. Montero Plata - Tarea 02. Ejercicio 2 -</a>
+		</h5>
+	</footer>
+</html>
