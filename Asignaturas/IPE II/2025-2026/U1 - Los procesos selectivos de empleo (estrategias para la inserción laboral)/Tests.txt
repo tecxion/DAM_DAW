@@ -1,0 +1,152 @@
+- La inteligencia artificial puede ser utilizada para filtrar y clasificar automáticamente los currículums de los candidatos en los procesos de selección.
+	Verdadero.
+
+- Las herramientas de inteligencia artificial en la búsqueda de empleo solo benefician a los empleadores, no a los candidatos.
+	Falso.
+
+- Los chatbots y asistentes virtuales basados en IA pueden ayudar a los candidatos a prepararse para entrevistas de trabajo proporcionando simulaciones y feedback.
+	Verdadero.
+
+- ¿Cuál de las siguientes afirmaciones describe mejor una cultura organizacional basada en la innovación?
+	Se promueve un ambiente de trabajo que fomenta la creatividad y la experimentación.
+		La comunicación entre departamentos se limita para mantener la confidencialidad.
+		Las decisiones se toman exclusivamente por los niveles más altos de la jerarquía.
+		Se prioriza la conformidad con las normas establecidas y la resistencia al cambio.
+
+- ¿Cuál de las siguientes técnicas de reclutamiento utiliza inteligencia artificial para preseleccionar candidatos basándose en palabras clave y coincidencias con la descripción del puesto?
+	Filtrado automático de currículums.
+		Social recruiting.
+		Análisis predictivo.
+		Videoentrevistas.
+
+- El CV debe incluir todos los trabajos que has tenido, independientemente de su relevancia para el puesto al que aplicas.
+	Falso.
+
+- Es recomendable investigar a fondo sobre la empresa antes de asistir a una entrevista de trabajo.
+	Verdadero.
+
+- En una entrevista de trabajo, es importante demostrar entusiasmo por el puesto, incluso si no estás seguro de querer trabajar en la empresa.
+	Verdadero.
+
+- LinkedIn es:
+	Es una red social orientada al uso empresarial, a los negocios y al empleo.
+		Es una red social generalista.
+		Una red de contactos para viajeros.
+		Es una plataforma de videos cortos.
+
+- SEPE (Servicio Público de Empleo Estatal), además de ofertas de empleo, proporciona información sobre prestaciones y ayudas para desempleados, así como cursos de formación ocupacional.
+	Ayudas para desempleados, así como cursos de formación ocupacional.
+		Ninguna es correcta.
+		Solo prestaciones.
+		Solo formación.
+
+- ¿Cuál es una ventaja de utilizar herramientas de inteligencia artificial en la búsqueda de empleo?
+	Todas las anteriores.
+		Reducción del tiempo de búsqueda.
+		Mayor precisión en la coincidencia de trabajos.
+		Aumento de la visibilidad de las habilidades.
+
+- ¿Qué aspecto es fundamental al evaluar la cultura de una empresa?
+	Sus valores y misión.
+		La antigüedad de los empleados.
+		Su ubicación.
+		La estructura salarial.
+
+- ¿Cuál de las siguientes estrategias es útil para superar un proceso de selección?
+	Preparar respuestas para preguntas comunes.
+		Llegar tarde a la entrevista.
+		Evitar hacer preguntas al entrevistador.
+		No investigar sobre la empresa.
+
+- ¿Qué recurso en línea es útil para desarrollar una red profesional?
+	LinkedIn.
+		TikTok.
+		Facebook.
+		Instagram.
+
+- ¿Qué herramienta del Europass ayuda a presentar las competencias y cualificaciones de manera clara en Europa?
+	CV Europass.
+		Pasaporte de Viaje.
+		Foro de Empleo.
+		Red Social Europea.
+
+- ¿Cuál es una técnica moderna de reclutamiento que marca tendencia?
+	Evaluaciones basadas en inteligencia artificial.
+		Publicación de anuncios en periódicos.
+		Referencias de empleados.
+		Entrevistas grupales.
+
+- ¿Qué se debe considerar al seleccionar ofertas de empleo según el perfil profesional?
+	Las oportunidades de desarrollo y crecimiento.
+		Solo el salario.
+		Los beneficios secundarios.
+		La ubicación de la oficina.
+
+- ¿Qué fase es crítica en la preparación para una entrevista?
+	Todas son correctas.
+		Elegir la ropa adecuada.
+		Investigación sobre la empresa.
+		Llegar puntualmente.
+
+- La evaluación de habilidades es:
+	Identificar las competencias técnicas y blandas adquiridas durante el ciclo de FP. Esto incluye habilidades específicas del sector.
+		Ninguna de las anteriores.
+		Definir metas a corto y largo plazo.
+		Conocer las áreas de interés de los alumnos dentro de su campo de estudio, lo que puede guiar la búsqueda de ofertas laborales específicas.
+
+- La evaluación de la cultura de la empresa, se hace:
+	Todas son correctas.
+		Reconocimiento y reputación.
+		Investigación online y recursos digitales.
+		Comentarios de empleados y ex-empleados.
+
+- Indica cuál es una estrategia para la superación de un proceso selectivo.
+	Prepara y personaliza tu currículum y carta de presentación.
+		Repasar lo estudiado en el ciclo formativo.
+		Inventarte un perfil con mucha experiencia.
+		Improvisar.
+
+- El Europass es una iniciativa de la Unión Europea diseñada para ayudar a las personas a comunicar sus habilidades y cualificaciones de manera clara y efectiva en toda Europa. Es especialmente útil para quienes buscan trabajo, estudiar o realizar prácticas en otro país europeo.
+	Verdadero.
+
+- Usar palabras clave en tu currículum no tiene impacto en cómo los sistemas de seguimiento de candidatos (ATS) lo clasifican.
+	Falso.
+
+- Tener un perfil completo en LinkedIn puede mejorar tus posibilidades de ser encontrado por reclutadores.
+	Verdadero.
+
+- Las herramientas de inteligencia artificial solo se utilizan en la fase de entrevista del proceso de selección.
+	Falso.
+
+- Crear una marca personal fuerte en línea no influye en las oportunidades laborales.
+	Falso.
+
+- Revisar la cultura de una empresa antes de aceptar una oferta de trabajo es innecesario.
+	Falso.
+
+- Las redes sociales profesionales, como LinkedIn, no son útiles para la búsqueda de empleo.
+	Falso.
+
+- Las ofertas de empleo en portales como Indeed o Glassdoor no requieren de una personalización del currículum.
+	Falso.
+
+- El Pasaporte Europeo de Competencias (Europass) es una herramienta útil para presentar las habilidades y cualificaciones en Europa.
+	Verdadero.
+
+- Es importante prepararse solo para las preguntas técnicas en una entrevista de trabajo.
+	Falso.
+
+- Las empresas modernas solo utilizan métodos tradicionales para la selección de personal.
+	Falso.
+
+- Las herramientas de inteligencia artificial (IA) están revolucionando la búsqueda de empleo al automatizar y optimizar muchos aspectos del proceso selectivo.
+	Verdadero.
+
+- La marca personal es la imagen profesional que un individuo proyecta a través de sus habilidades, valores y experiencias.
+	Verdadero.
+
+- Reclutamiento Basado en Competencias.
+	Verdadero.
+
+- La entrevista de trabajo es un componente crucial en el proceso de selección, donde los candidatos tienen la oportunidad de demostrar sus habilidades, experiencia y ajuste cultural a la empresa.
+	Verdadero.

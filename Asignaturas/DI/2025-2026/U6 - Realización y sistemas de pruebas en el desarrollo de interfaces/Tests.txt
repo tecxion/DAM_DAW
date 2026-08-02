@@ -1,0 +1,295 @@
+- Piensa en una aplicación que se acaba de construir. Entre otras muchas cosas, tiene un buscador que conecta a una base de datos. Cuando localizamos a una persona, se muestran en una pantalla sus datos. El cliente había pedido que también se mostrara una foto de esa persona, la cual no aparece. ¿Qué podemos decir de esa aplicación?
+	La aplicación ha sido verificada, pero no validada.
+		La aplicación ha sido verificada y validada.
+		La aplicación no ha sido ni verificada ni validada.
+
+- Relaciona los tipos de pruebas al software con su característica más relevante, escribiendo el número asociado a la característica en el hueco correspondiente.
+	Prueba de Regresión -> Se prueba la no existencia de errores tras una modificación.
+	Prueba de Integración -> Se prueba la interrelación de todos los módulos.
+	Prueba de Aceptación -> Las realiza el cliente sobre el producto terminado.
+
+- Tras probar varios módulos, de forma independiente, terminamos por librarlos de errores. ¿Es necesario realizar la prueba de integración?
+	Sí.
+
+- El objetivo fundamental de la prueba de configuración es determinar el funcionamiento óptimo del sistema en base al uso eficiente de sus recursos.
+	No, el objetivo de la prueba no es ese. Lo que se mide es la capacidad de funcionamiento óptimo en base a distintos entornos de configuración de hardware y software.
+
+- Las pruebas de sistema se centran en verificar los requisitos no funcionales de la aplicación. ¿Cuáles son?
+	Velocidad, seguridad, exactitud y fiabilidad.
+		Velocidad, seguridad, exactitud y funcionalidad.
+		Validación, velocidad, seguridad y fiabilidad.
+
+- Una de las estrategias en el diseño de pruebas funcionales, de caja negra, es la de particiones variables. ¿Cuál es su principal característica?
+	Escoger una muestra representativa de entradas.
+		Selección de los valores límite de validez de las entradas.
+		Escoger al azar una muestra de entradas.
+
+- ¿Es totalmente imprescindible tener conocimiento de antemano de la arquitectura del computador destino de nuestra aplicación para hacer un uso eficiente de recursos hardware?
+	No. Aunque es aconsejable no es imprescindible.
+
+- En la prueba de seguridad, no se considera como potencial problema:
+	La tardanza en la respuesta de la aplicación.
+		Bloquear el sistema.
+		 Intentar conseguir las claves de acceso.
+		Acceder a los datos.
+
+- Hemos casi terminado de probar la aplicación. Te encanta ver el resultado de tu trabajo y piensas en lo bien que ha quedado. Observas que cuando intentamos alguna opción no válida, se abre una ventana que dice “la acción no ha podido ser ejecutada con éxito”. Sea cual sea la acción no válida, el mensaje siempre es el mismo. Si nuestro cliente es una cadena hotelera y la persona que va a usar la aplicación no tiene grandes conocimientos de informática, ¿crees que el mensaje debería ser diferente?
+	Sí, debería concretar el error para que el usuario sepa dónde se ha equivocado.
+
+- Las pruebas alfa se llevan a cabo en el lugar usual de trabajo del cliente.
+	Falso. Son las pruebas beta las que se llevan a cabo en el lugar de trabajo del cliente.
+
+- El coste económico que causa un error de software se multiplica por un factor de _____si se comete en la fase de pruebas.
+Seleccione una:
+a. 3-6
+40-50
+c. 1
+d. 10
+
+- Para realizar la prueba de capacidad, se pueden seguir los métodos:
+Seleccione una o más de una:
+Maximizar la búsqueda de datos en disco.
+Aumentar la frecuencia de entradas al sistema.
+c. Provocar fallos en el software.
+d. Disminuir el uso de memoria del sistema.
+
+¿Qué tipo de pruebas evalúan cómo el software se comporta bajo condiciones de carga pesada para identificar cuellos de botella?
+Seleccione una:
+Prueba de resistencia
+b. Pruebas de integración
+c. Pruebas de validación
+d. Prueba de seguridad
+
+Las pruebas de regresión se realizan para:
+Seleccione una:
+a. Validar la interfaz visual
+b. Simular carga de usuarios
+Asegurar que un cambio no rompe funcionalidades existentes
+d. Medir rendimiento
+
+
+El conjunto completo de casos de prueba que, teóricamente, podemos hacer sobre una aplicación tiene un límite máximo que no podemos superar. ¿Verdadero o falso?
+Falso 
+
+¿Qué error detectaría mejor una prueba de integración?
+Seleccione una:
+a. Fallo ortográfico en un mensaje
+Fallo al comunicar el controlador con el modelo
+c. Error visual en un botón
+d. Tiempo excesivo al cargar un archivo gigante
+
+
+Una buena estrategia de pruebas contribuye a:
+Seleccione una o más de una:
+a. Incrementar los tiempos de desarrollo.
+Incrementar la productividad.
+Disminuir los riesgos del negocio.
+Aumentar la calidad.
+
+Relaciona cada prueba de software con su función correspondiente:
+
+Asegurar que un cambio no introduce defectos colaterales.
+Asegurar la conformidad del cliente.
+Mantener los tiempos de respuesta en límites aceptables.
+Asegurar la eficiencia de la aplicación.
+
+De rendimiento.
+De aceptación.
+Regresión.
+De uso de recursos.
+
+- Relaciona cada prueba con su característica:
+
+La realiza el cliente sin la presencia del desarrollador.
+Se evalúa el comportamiento interno del programa en la generación de las salidas.
+La realiza el cliente en presencia del desarrollador.
+Se evalúan las salidas en función de las entradas.
+
+Prueba beta
+Prueba de caja negra
+Prueba de caja blanca
+Prueba alfa
+
+¿Qué pruebas buscan verificar que el software está protegido contra accesos ilegales y comportamientos sospechosos?
+Seleccione una:
+a. Pruebas de uso de recursos
+Prueba de seguridad
+c. Pruebas de validación
+d. Pruebas de integración
+
+¿Qué prueba es adecuada para validar la lógica del controlador?
+Seleccione una:
+a. Pruebas de aceptación
+b. Pruebas estáticas
+c. Pruebas de UI
+Pruebas unitarias con mocks de la vista
+
+En una aplicación como el editor de textos, Bloc de notas. Abrir → Editar → Guardar es un caso típico de:
+Seleccione una o más de una:
+a. Pruebas de configuración
+b. Pruebas unitarias
+Pruebas de sistema
+Pruebas de integración
+
+¿Qué tipo de prueba se enfoca en la interacción entre módulos y puede ser incremental o no incremental?
+Seleccione una:
+a. Pruebas de validación
+b. Pruebas unitarias
+c. Pruebas de sistema
+Pruebas de integración
+
+¿Qué herramientas pueden utilizarse para automatizar pruebas de interfaz de usuario en Windows Forms?
+Seleccione una:
+a. xUnit
+b. TestStack.White
+WinAppDriver
+d. Moq
+
+Las pruebas de rendimiento se enfocan en:
+Seleccione una:
+Tiempo de respuesta del sistema
+b. Uso de recursos
+c. Validar interacción vista-controlador
+d. Revisar requisitos del usuario
+
+¿Qué técnica de pruebas de caja negra utiliza valores en el límite de las clases de equivalencia?
+Seleccione una:
+Análisis de valores límites
+b. Pruebas de regresión
+c. Pruebas aleatorias
+d. Partición equivalente
+
+
+En la prueba de configuración, es necesario probar la aplicación en distintos:
+Seleccione una o más de una:
+a. Interfaces de usuario.
+Equipos físicos, con distintas arquitecturas.
+Sistemas operativos.
+d. Lenguajes de programación.
+
+
+La usabilidad es un parámetro que no tiene importancia para el diseño del sistema de pruebas en el desarrollo de software. ¿Verdadero o falso?
+Falso.
+
+¿Qué tipo de prueba detectaría que la barra de estado no actualiza el número de caracteres?
+Seleccione una:
+a. Unitarias
+b. Integración
+c. Aceptación
+d. UI / Interfaz
+
+- Lo más conveniente es que las pruebas de software se realicen sólo sobre el sistema completo, ya que no detectaríamos los errores en cada trozo de manera individual. ¿Verdadero o falso?
+Falso 
+
+¿Qué criterio de pruebas de caja blanca busca ejecutar cada posible camino lógico del programa al menos una vez?
+Seleccione una:
+a. Cobertura de condiciones
+b. Cobertura de decisiones
+Cobertura de caminos
+d. Cobertura de condiciones y decisiones
+
+¿Qué elementos deben incluirse en un plan de pruebas?
+Seleccione una o más de una:
+Tipos y estrategia de pruebas
+Objetivos
+c. Algoritmos empleados
+d. Patrones de diseño
+
+¿Qué tipo de pruebas se realizan para medir el consumo de recursos como la memoria y la CPU?
+Seleccione una:
+a. Pruebas de sistema
+b. Pruebas de integración
+Pruebas de uso de recursos
+d. Pruebas unitarias
+
+En las pruebas funcionales, el tipo de pruebas conocido como _____es el que se lleva a cabo.
+Seleccione una:
+a. De configuración
+De caja negra
+c. De usabilidad
+d. De caja blanca
+
+La prueba de regresión se puede realizar sobre:
+Seleccione una o más de una:
+a. Únicamente los componentes del software que no han cambiado.
+b. El software en su totalidad, sin excepciones.
+Una muestra representativa de todas las funciones del software.
+Únicamente los componentes del software que han cambiado.
+
+¿Qué estrategia de pruebas de caja negra se basa en definir pruebas comunes dependiendo del tipo de dato?
+Seleccione una:
+a. Pruebas de caja blanca
+b. Pruebas aleatorias
+Partición equivalente
+d. Análisis de valores límites
+
+Las pruebas de sistema se realizan normalmente:
+Seleccione una:
+a. Durante el diseño inicial
+Cuando la aplicación está completa y funcional
+c. Antes de programar
+d. Solo si el cliente lo solicita
+
+Empareja cada tipo de prueba con su descripción.
+Pruebas de integración	
+Pruebas de interfaz de usuario	
+Pruebas de aceptación	
+Pruebas unitarias	
+Pruebas de sistema
+
+Comprueban si se cumplen los requisitos del usuario
+Prueban componentes individuales, como el modelo y el controlador
+Evalúan el comportamiento de todo el sistema completo
+Prueban la interacción mediante la vista gráfica
+Verifican la interacción entre componentes
+
+En la prueba de recuperación, el responsable adopta el papel de intruso y trata de violar los mecanismos de acceso al sistema. ¿Verdadero o falso?
+Falso 
+
+La realización de pruebas _____ nos permite detectar errores colaterales tras añadir modificaciones en la aplicación.
+Seleccione una:
+a. de integración
+b. semánticas
+c. funcionales
+de regresión
+
+La vista en un desarrollo MVC debería probarse principalmente mediante:
+Seleccione una:
+a. Pruebas unitarias
+b. Pruebas de caja blanca
+Pruebas de interfaz de usuario
+d. Pruebas de rendimiento
+
+
+¿Qué entradas se utilizan en el método de particiones equivalentes de las pruebas funcionales?
+Seleccione una:
+a. Se prueban todas las entradas.
+b. Una muestra al azar.
+Una muestra representativa.
+d. Ninguna es correcta.
+
+¿Cuál es la principal razón de automatizar las pruebas de software?
+Seleccione una:
+a. Integrar varias herramientas.
+b. Sacar el producto al mercado antes que nuestros competidores.
+Reducir costes.
+d. Encontrar mayor número de errores.
+
+¿Cuál es el objetivo principal de las pruebas unitarias?
+Seleccione una:
+a. Verificar requisitos del usuario
+Probar métodos o clases de forma aislada
+c. Probar la interfaz gráfica
+d. Validar el sistema completo
+
+La prueba consistente en probar la correcta interrelación entre los módulos de una aplicación es:
+Seleccione una:
+a. Configuración.
+b. Sistema.
+c. Regresión.
+Integración.
+
+Para determinar la usabilidad de una aplicación se suele recurrir a los cuestionarios y entrevistas a los usuarios. ¿Verdadero o falso?
+Seleccione una:
+Verdadero
+

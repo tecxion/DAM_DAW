@@ -1,0 +1,190 @@
+- ¿Qué herramienta es más adecuada para detección de manos y gestos en tiempo real?
+Seleccione una:
+	a. MediaPipe
+b. Entity Framework
+c. SQL Server
+d. Azure Speech
+
+¿Qué define mejor una interfaz natural de usuario (NUI)?
+Seleccione una:
+a. Una interfaz solo para dispositivos móviles
+b. Una interfaz con muchos botones y menús
+	c. Permite interacción mediante gestos, voz o movimientos naturales
+d. Una interfaz basada exclusivamente en ratón y teclado
+
+¿Qué problema puede aparecer si una aplicación NUI depende exclusivamente de servicios en la nube?
+Seleccione una:
+	a. Dependencia de conexión y aumento de latencia
+b. Mejor privacidad de los datos
+c. Mayor facilidad de mantenimiento
+d. Reducción del consumo de CPU
+
+Una aplicación de escritorio moderna en Windows desarrollada con C# suele usar el framework de interfaz gráfica llamado ____.
+	WPF
+		WPF (Windows Presentation Foundation)
+
+En una aplicación NUI, los eventos generados por voz o gestos deben traducirse a
+Respuesta
+de la aplicación.
+	comandos
+		acciones
+
+La latencia en una NUI se refiere al tiempo entre la
+Respuesta
+del usuario y la respuesta del sistema.
+	acción
+
+El SDK de Azure Speech permite convertir voz en texto (____) y texto en voz (____).
+Respuesta: 
+	reconocimiento y síntesis
+
+¿Qué ventaja aporta usar ONNX Runtime en aplicaciones C# frente a ejecutar modelos desde Python?
+Seleccione una:
+a. Mejor calidad visual
+b. Menor uso de memoria siempre
+c. Mayor facilidad para entrenar modelos
+	d. Ejecución nativa y mejor integración con .NET
+
+¿Qué función cumple un modelo preentrenado?
+Seleccione una:
+a. Diseñar ventanas WPF
+b. Almacenar datos en una base de datos
+	c. Reconocer patrones sin necesidad de entrenar desde cero
+d. Crear interfaces gráficas automáticamente
+
+El reconocimiento de gestos consiste en interpretar ____ captados por una cámara.
+Respuesta: 
+	movimientos
+		imágenes
+
+¿Cuál es un ejemplo de interacción natural?
+Seleccione una:
+a. Abrir el menú Archivo
+b. Hacer clic en un botón con el ratón
+	c. Decir “Siguiente” para cambiar de pantalla
+d. Escribir un comando en la consola
+
+El uso de modelos preentrenados reduce el tiempo de desarrollo y el
+Respuesta
+computacional.
+	coste
+
+¿Qué ejemplo representa mejor una aplicación NUI completa?
+Seleccione una:
+a. Editor de texto tradicional
+b. Aplicación solo con menús
+c. Formulario clásico
+	d. Combinación de voz, gestos y elementos visuales
+
+Una buena interfaz natural debe reducir la ____ cognitiva del usuario.
+Respuesta: 
+	carga
+
+
+¿Cuál es una ventaja clave de usar interfaces naturales de usuario?
+Seleccione una:
+a. Requieren más hardware especializado
+b. Son más difíciles de aprender
+c. Eliminan la interfaz gráfica
+	d. Mejoran la accesibilidad y experiencia de usuario
+
+¿Qué escenario requiere mayor nivel de precisión y control en una NUI?
+Seleccione una:
+	a. Controlar una aplicación médica o industrial
+b. Cambiar de pantalla con un gesto amplio
+c. Reproducir un sonido al detectar movimiento
+d. Mostrar una animación decorativa
+
+MediaPipe se utiliza principalmente en aplicaciones que trabajan con ____ en tiempo real.
+Respuesta:
+	video
+		visión
+
+¿Qué formato se utiliza habitualmente para ejecutar modelos de aprendizaje automático en .NET?
+Seleccione una:
+a. XML
+b. DLL
+c. JSON
+	d. ONNX
+
+¿Qué lenguaje se utiliza habitualmente para desarrollar aplicaciones WPF?
+Seleccione una:
+a. JavaScript
+b. Python
+c. Java
+	d. Visual C#
+
+¿Por qué el patrón MVVM es especialmente adecuado para aplicaciones NUI en WPF?
+Seleccione una:
+a. Porque mejora el rendimiento gráfico
+b. Porque elimina la necesidad de eventos
+c. Porque permite entrenar modelos de IA
+	d. Porque separa claramente lógica de interacción y presentación
+
+El aprendizaje automático permite a una aplicación ____ a partir de datos sin ser programada explícitamente.
+Respuesta: 
+	aprender
+
+¿Qué mecanismo se utiliza habitualmente en WPF para responder a acciones del usuario?
+Seleccione una:
+a. Servicios web
+	b. Eventos y enlaces de datos
+c. Bucles infinitos
+d. Consultas SQL
+
+¿Cuál es una ventaja de ejecutar modelos de IA en local?
+Seleccione una:
+a. Menor control
+b. Mayor dependencia de Internet
+c. Peor rendimiento siempre
+	d. Mejor privacidad y menor latencia
+
+En una aplicación NUI basada en cámara, ¿qué elemento es imprescindible?
+Seleccione una:
+a. Teclado físico
+b. Base de datos local
+c. Micrófono
+	d. Cámara o sensor de movimiento
+
+
+¿Qué tecnología se utiliza principalmente para reconocimiento de voz?
+Seleccione una:
+a. MediaPipe
+b. WPF
+	c. Azure Cognitive Services - Speech
+d. OpenCV
+
+¿Cuál es una buena práctica de diseño para interfaces naturales de usuario?
+Seleccione una:
+a. Ocultar el estado del sistema
+b. Usar solo interacción natural sin apoyo visual
+c. Obligar al usuario a memorizar muchos gestos
+	d. Ofrecer retroalimentación visual o sonora inmediata
+
+¿Qué patrón de diseño es más recomendable para aplicaciones WPF complejas?
+Seleccione una:
+a. Factory
+b. MVC
+	c. MVVM
+d. Singleton
+
+¿Cuál es la principal diferencia entre una GUI tradicional y una NUI?
+Seleccione una:
+	a. La NUI permite interacción mediante acciones naturales
+b. La NUI elimina la interfaz gráfica
+c. La GUI no usa eventos
+d. La GUI solo funciona en Windows
+
+¿Qué enfoque mejora la robustez de una interfaz basada en gestos?
+Seleccione una:
+	a. Confirmar el gesto mediante varios frames consecutivos
+b. Usar resolución de cámara muy baja
+c. Evitar el uso de eventos
+d. Detectar un gesto con un solo frame
+
+¿Cuál es el principal reto técnico al combinar reconocimiento de voz y gestos en una misma aplicación NUI?
+Seleccione una:
+a. El diseño de la interfaz gráfica
+	b. La sincronización y gestión concurrente de eventos
+c. La falta de librerías disponibles
+d. La compatibilidad con WPF

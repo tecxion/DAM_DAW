@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno id="1">
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <edad>18</edad>
+        <nota>8.5</nota>
+    </alumno>
+    <alumno id="2">
+        <nombre>María</nombre>
+        <apellido>Gómez</apellido>
+        <edad>17</edad>
+        <nota>9.2</nota>
+    </alumno>
+    <alumno id="3">
+        <nombre>Carlos</nombre>
+        <apellido>López</apellido>
+        <edad>19</edad>
+        <nota>7.8</nota>
+    </alumno>
+    <alumno id="4">
+        <nombre>Ana</nombre>
+        <apellido>Martínez</apellido>
+        <edad>18</edad>
+        <nota>8.9</nota>
+    </alumno>
+</alumnos>

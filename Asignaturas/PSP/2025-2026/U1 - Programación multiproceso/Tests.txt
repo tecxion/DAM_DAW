@@ -1,0 +1,146 @@
+- La especificación de una instrucción de lectura o escritura en fichero, indica que es bloqueante. Esto implica que se preocupa por resolver los errores que se deriven del posible uso concurrente del fichero. Es decir, que no necesitamos definir regiones críticas en nuestro código.
+	Falso.
+
+- Sobre programación paralela y distribuida, marca las incorrectas:
+	La programación distribuida permite la comunicación mediante memoria compartida.
+		Buscan mejorar las prestaciones del sistema aprovechando la ejecución simultánea de tareas.
+		Las unidades de cómputo del sistema colaboran en la solución de un problema resolviendo la parte que le ha sido asignada.
+		Los sistemas se presentan como una unidad, transparente.
+
+- En un entorno de ejecución con condiciones de competencia, una aplicación secuencial correcta, seguirá generando los resultados esperados.
+	Falso.
+
+- Las herramientas para la gestión de procesos nos permiten:
+	Finalizar procesos.
+	Cambiar la prioridad de ejecución de un proceso.
+		Modificar la información de uso del sistema mostrada.
+		Modificar los PID de los procesos activos.
+
+- Podemos implementar un monitor utilizando semáforos.
+	Verdadero.
+
+- En un cambio de contexto en la CPU, se cambia:
+	El estado de la CPU.
+		La memoria que está utilizando la CPU.
+		El equipo en el que está instalada la CPU.
+		La instrucción que está ejecutando la CPU.
+
+- Los programadores/as no tienen que preocuparse por la concurrencia al implementar sus aplicaciones, es algo que el sistema operativo soluciona, de forma que transparente al programador/a.
+	Falso.
+
+- Un proceso se encuentra en estado suspendido cuando:
+	Ha sido llevado al área de intercambio para liberar un poco la memoria principal del sistema.
+		Se encuentra en su turno de ejecución.
+		Está esperando que finalice una operación de E/S.
+		Está esperando a volver a ser asignado a la CPU.
+
+- Cuales de los siguientes no son requisitos que la programación concurrente deba satisfacer:
+	Eficiencia.
+	Reusabilidad.
+		Safety.
+		LiveLock.
+
+- En relación con las regiones o secciones críticas, marca las correctas:
+	Están formadas por instrucciones que acceden a un recurso compartido.
+	Se ejecutan de forma atómica con respecto a otros procesos que acceden al mismo recurso.
+	Se pueden definir tantas como sean necesarias.
+	 Incluirán sólo las instrucciones imprescindibles.
+
+- ¿Cuáles de los siguientes son arquitecturas de diseño?
+	Pizarra.
+	Cliente-Servidor.
+	Tres niveles.
+	Orientada a servicios.
+
+- En los mecanismos básicos de comunicación entre procesos, el sistema gestiona los bloqueos en el canal de comunicación.
+	Verdadero.
+
+- Ordena de menor a mayor (granularidad más fina a más gruesa) los niveles de paralelismo.
+        A nivel de bit.
+        A nivel de instrucciones.
+        A nivel de procedimientos.
+        A nivel de tarea.
+
+- Una cola de mensajes es necesaria en:
+	Paso de mensajes síncrono.
+	Paso de mensajes asíncrono.
+		Memoria compartida.
+		Llamada a procedimiento remoto.
+
+- Podemos utilizar el método FileChannel.tryLock() para indicar si un recurso está bloqueado o no.
+	Verdadero.
+
+- El método FileChannel.lock() bloquea el proceso hasta obtener uso exclusivo del fichero.
+	Verdadero.
+
+- En relación a la creación de procesos en Java, marca las correctas:
+	Puede generar distintos tipos de excepciones.
+	El método exec() de la clase Runtime nos permite lanzar procesos.
+		La clase java.lang.Process nos permite lanzar procesos.
+		Es imposible crear nuevos procesos en Java.
+
+- La situación en la que un proceso consume tiempo de CPU mientras está bloqueado por un evento se conoce como:
+	Espera activa.
+		Inanición.
+		Interbloqueo.
+		Bloqueo indefinido.
+
+- ¿Cuál no es una razón para utilizar concurrencia en la ejecución de tareas?
+	Incrementar la complejidad del desarrollo de aplicaciones.
+		Proporcionar interactividad.
+		Mejorar disponibilidad.
+		Optimizar recursos.
+
+- Varios procesos entran en condición de competencia cuando:
+	Necesitan un recurso compartido de forma exclusiva.
+	Necesitan un recurso compartido de forma no exclusiva.
+	Necesitan comunicarse entre ellos.
+		Necesitan un recurso no compartido.
+
+- Componentes del sistema operativo para la gestión de la CPU:
+	El cargador.
+	El planificador.
+		El instalador.
+		El compilador.
+
+- Utilizando semáforos, sólo podemos implementar regiones críticas, y no condiciones de sincronismo.
+	Falso.
+
+- En la depuración de programas concurrentes, debemos realizar pruebas que nos permitan comprobar la correcta definición de la región crítica, y que se cumple la exclusión mutua.
+	Verdadero.
+
+- El código Java, se caracteriza por:
+	Interpretado.
+	Multiplataforma.
+		Script.
+		Binario.
+
+- Los conceptos de servicio e hilo, son equivalentes.
+	Falso.
+
+- Marca cuáles de los siguientes forman parte de la plataforma Java:
+	La máquina virtual Java (JVM).
+	La interfaz de programación de aplicaciones (API) Java.
+		El lenguaje Java.
+		El entorno integrado de desarrollo (IDE).
+
+- ¿En cuál de los siguientes estados, pasa a estar un proceso que aún tiene instrucciones por ejecutar y ha consumido su quamtum?
+	Listo.
+
+- El contenedor del código máquina de un proceso se llama:
+	Ejecutable.
+	Binario.
+		Aplicación.
+		Interpretado.
+
+- En relación con los monitores, marca las correctas:
+	Gestiona recursos que van a ser accedidos de forma concurrente, garantizando la exclusión mutua en los accesos.
+	Tienen asociada una lista de procesos suspendidos en espera de obtener el acceso al recurso que gestionan.
+	Simplifica la implementación de la aplicación al encapsular la exclusión mutua.
+		Define todas variables, métodos y procedimientos como públicos.
+
+- Las instrucción wait sobre un semáforo:
+	Es una instrucción segura.
+	Marca el inicio de una región crítica.
+		No ha de ser atómica si se trata de un semáforo binario.
+		Duerme siempre al proceso llamador hasta que otro proceso ejecute un signal sobre el mismo semáforo.

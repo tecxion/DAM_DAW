@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    CONTENEDOR PRINCIPAL
+    android: Namespace de Android para los atributos
+    id: Identificador único
+    layout_width: Ancho, ocupa todo el espacio disponible del padre
+    layout_height: Alto, ocupa todo el espacio disponible del padre
+    orientation: Orientación vertical
+    paddingTop: Padding superior
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+    <!--
+        TEXTO DE BIENVENIDA
+        layout_width: Ancho, se ajusta al contenido
+        layout_height: Alto, se ajusta al contenido
+        text: Texto que se muestra
+        layout_gravity: Posicionamiento dentro del padre
+    -->
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido Román"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--
+        CONTENEDOR PARA SUPERPONER ELEMENTOS
+        layout_marginTop: Margen superior
+        background: Color amarillo claro de fondo
+        paddingHorizontal: Padding horizontal
+        paddingVertical: Padding vertical
+    -->
+    <FrameLayout
+        android:id="@+id/layout_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFF294"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="20dp">
+
+        <!--
+            CONTENEDOR PARA ORGANIZAR EL CONTENIDO VERTICALMENTE
+            gravity: Posicionamiento del contenido
+        -->
+        <LinearLayout
+            android:id="@+id/layout_inner_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- TEXTO DESCRIPTIVO DEL PAISAJE -->
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Este es mi paisaje favorito" />
+
+            <!--
+                IMAGEN DEL PAISAJE
+                src: Referencia al recurso
+                contentDescription: Texto de accesibilidad
+                layout_marginVertical: Margen vertical
+                adjustViewBounds: Ajusta los límites de la vista para mantener las proporciones de la imagen
+            -->
+            <ImageView
+                android:id="@+id/image_landscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paisaje"
+                android:contentDescription="Mi paisaje favorito"
+                android:layout_marginVertical="20dp"
+                android:adjustViewBounds="true" />
+
+
+            <!-- PIE DE FOTO -->
+            <TextView
+                android:id="@+id/text_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paisaje Tranquilo" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+# Bytecode Java compilado
+bin/
+*.class
+
+# Eclipse IDE
+.classpath
+.project
+.settings/
+.metadata/
+
+# Visual Paradigm backups
+*.vpp.bak_*
+
+# Google Docs shortcuts
+*.gdoc

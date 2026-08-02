@@ -1,0 +1,8 @@
+1. Proyecto Maven.
+2. Configuración pom.xml.
+3. Actualizar Maven.
+4. Crear persistence.xml en resources/META-INF.
+5. Añadir conexión a base de datos.
+6. Unidad de persistencia.
+7. JPA Entities from DB (Use table schema).
+8. Relaciones faltantes en los POGOs.

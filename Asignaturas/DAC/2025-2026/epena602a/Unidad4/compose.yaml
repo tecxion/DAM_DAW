@@ -1,0 +1,49 @@
+services:
+  database:
+    image: mariadb:lts
+    container_name: unidad4_mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: endika_root_password
+      MARIADB_ROOT_HOST: "%"
+      MARIADB_DATABASE: prestashop
+      MARIADB_USER_HOST: "%"
+      MARIADB_USER: prestashop
+      MARIADB_PASSWORD: prestashop_endika123
+    volumes:
+      - db_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: unidad4_phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: endika_root_password
+    ports:
+      - 8091:80
+    depends_on:
+      - database
+
+
+  prestashop:
+    image: prestashop/prestashop:latest
+    container_name: unidad4_prestashop
+    restart: unless-stopped
+    environment:
+      DB_SERVER: database
+      DB_USER: prestashop
+      DB_PASSWORD: prestashop_endika123
+      DB_NAME: prestashop
+    volumes:
+      - prestashop_data:/var/www/html
+    ports:
+      - 8080:80
+    depends_on:
+      - database
+
+volumes:
+  db_data:
+  prestashop_data:

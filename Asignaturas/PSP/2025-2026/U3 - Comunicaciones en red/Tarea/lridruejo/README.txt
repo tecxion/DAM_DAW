@@ -1,0 +1,3 @@
+Ejercicio 2 hecho de dos formas:
+- Ejercicio 2 -> Ejercicio de la tarea como se pide. Proyecto NetBeans (Maven).
+- Ejercicio 2B -> Manejando el distinto tamaño de las respuestas del servidor mediante envío de la respuesta en dos pasos (longitud y respuesta). Habría que manejar casos en los que la recepción por parte del cliente de los paquetes de longitud y respuesta no es como se espera (ya que en el protocolo UDP el orden y la recepción de los paquetes no están asegurados). Solo los .java con el archivo Canciones.txt.

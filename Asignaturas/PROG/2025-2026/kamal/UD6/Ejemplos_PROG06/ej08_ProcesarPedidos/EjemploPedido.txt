@@ -1,0 +1,18 @@
+## PEDIDO ##
+Número de pedido: { 20304 }
+Cliente: { Muebles Bonitos S.A. }
+Código del cliente: { 00293 }
+Dirección de factura: { C/ De en frente, 11 }
+Dirección de entrega: { C/ De al lado, 22 }
+Nombre del contacto: { Elias }
+Teléfono del contacto: { 987654321 }
+Correo electrónico del contacto: { mail@mail1234.com }
+Fecha preferente de entrega: { 19/11/2012 }
+Forma de pago: { Transferencia }
+## ARTICULOS ##
+{ Código Artículo | Descripción | Cantidad }
+{ 0001231 | Tuercas tipo 1 | 200 }
+{ 0001200 | Tornillos tipo 1 | 200 }
+{ 0002200 | Arandelas tipo 2 | 200 }
+## FIN ARTICULOS ##
+## FIN PEDIDO ##

@@ -1,0 +1,18 @@
+1. a) odoo-bin scaffold biblioteca addons
+2. b) class Libro(models.Model):...
+	Clase con mayúscula inicial y campos _name y name.
+3. a) En la clave depends y en la clave data
+4. c) Vista árbol (lista).
+5. b) Que cada libro pertenece a una categoría.
+	La relación Many2one es de que cada categoría puede tener muchos libros, pero el Many2one se escribe en la clase Libro. En la clase Categoría se escribe One2many.
+6. c) El código de ese archivo no se carga en el módulo.
+7. d) Todas las anteriores son correctas.
+8. b) Python.
+9. a) views.xml
+10. c) security.xml y ir.model.access.csv
+11. b) El XML no se carga en la base de datos.
+12. c) En archivos XML dentro de la carpeta views
+13. d) Importar los archivos Python necesarios para que Odoo los reconozca.
+14. c) QWeb.
+15. a) Es obligatorio y define la configuración del módulo.
+16. c) Los permisos no se aplican correctamente.

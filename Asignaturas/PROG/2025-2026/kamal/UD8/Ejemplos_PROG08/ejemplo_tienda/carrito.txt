@@ -1,0 +1,7 @@
+Producto de alimentación.  Nombre: pan Precio base: 1,00 Cadudidad en días: 1 Precio: 0,90 Cantidad: 13 Total: 11,70
+Producto de alimentación.  Nombre: leche Precio base: 1,50 Cadudidad en días: 12 Precio: 1,50 Cantidad: 2 Total: 3,00
+Producto de higiene.  Nombre: dentrífico Precio base: 1,95 No es un producto de uso profesional Precio: 1,95 Cantidad: 5 Total: 9,75
+------------------------------------
+TOTAL A PAGAR:  24,45€
+
+      ¡Gracias por su visita!       

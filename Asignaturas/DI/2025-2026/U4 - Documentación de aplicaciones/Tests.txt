@@ -1,0 +1,65 @@
+- ¿Qué documento aporta información muy especializada, estando dirigido a usuarias y usuarios con conocimientos avanzados?
+	Guía de referencia.
+		Manual de usuario.
+		Guía rápida.
+
+- ¿Cuándo no es adecuada una guía rápida?
+	Cuando hay que detallar el proceso de instalación. En este caso, habría que elaborar un manual de instalación.
+		En aplicaciones que requieran una sola configuración.
+		En aplicaciones con funcionalidad limitada.
+
+- ¿A qué tipo de ayuda accedemos al pulsar la tecla F1?
+	Ayuda genérica.
+		Ayuda contextual.
+		Manual de instalación.
+		Guía rápida.
+
+- Los ficheros de ayuda de una aplicación:
+	Son ficheros que nos dan información sobre la aplicación y tienen un formato basado HTML o PDF.
+		Son ficheros de texto plano que pueden acompañar a una aplicación.
+		Solo son necesarios en aplicaciones realizadas para Internet.
+		El formato habitual de los ficheros de ayuda está basado en Microsoft Word.
+
+- El Manual de Instalación está destinado, principalmente:
+	Administradores de sistema. Para ellos se destinan el Manual de instalación y el Manual de Configuración y Administración.
+		Usuarios poco experimentados.
+		Usuarios.
+
+- En HelpNavigator, ¿qué opción abre una página específica del CHM en lugar del índice?
+	HelpNavigator.Topic. Navega a un tema o URL concreta.
+		HelpNavigator.Find.
+		HelpNavigator.TableOfContents.
+		HelpNavigator.Index.
+
+- Los índices en la ayuda.
+	Presentan una lista de claves ordenadas alfabéticamente.
+	En JavaHelp se utiliza la herramienta jhindexer para su implementación.
+	Es necesario crear una base de datos de búsqueda.
+		Muestran los contenidos de la ayuda.
+
+- La ayuda tiene la misma función que una guía de referencia.
+	Falso.
+
+- En docfx.json, ¿qué sección define dónde están los proyectos .csproj para extraer comentarios?
+	metadata
+
+- ¿Qué contiene el manual de instalación?
+	Detalles necesarios para la instalación de la aplicación en diferentes entornos.
+		Consejos y trucos para el uso avanzado de la aplicación.
+		Detalles sobre cómo contribuir al desarrollo de la aplicación.
+		Instrucciones exclusivas para la desinstalación de aplicaciones.
+
+- ¿Para qué sirve la propiedad 'HelpNavigator' en el HelpProvider?
+	Define cómo se abrirá la ayuda (Índice, Tabla de Contenidos, Tema). Controla el comportamiento de apertura.
+		Establece la ruta del archivo.
+		Activa el botón de ayuda.
+		Define el texto del ToolTip.
+
+- Estás configurando la ayuda contextual para un formulario. ¿Qué componente de Windows Forms permite abrir un archivo de ayuda específico al presionar la tecla F1?
+	HelpProvider. Asocia un archivo de ayuda y gestiona la tecla F1.
+	ToolTip.
+	LinkLabel.
+	ErrorProvider.
+
+- Los componentes que debe tener un manual son.
+	Tabla de contenidos.

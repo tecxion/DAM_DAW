@@ -1,0 +1,3 @@
+3 cadenas montaje -> Hilos productores (producen 5 vehículos cada una)
+Camiones -> Recurso compartido (capacidad máxima 6 vehículos cada uno)
+Renovación -> Hilo consumidor (renueva el camión)

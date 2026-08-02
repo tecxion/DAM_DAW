@@ -1,0 +1,32 @@
+Conceptos básicos de expresiones regulares
+1. Símbolos literales
+
+Un patrón como "aaa" solo acepta exactamente "aaa".
+
+2. Conjuntos y alternativas
+
+[xyz]: acepta un solo carácter de los indicados.
+
+[a-z], [A-Z], [a-zA-Z]: rangos de letras.
+
+[0-9]: cualquier dígito del 0 al 9.
+
+Las regex distinguen mayúsculas y minúsculas.
+
+3. Repeticiones
+
+a? → aparece 0 o 1 vez
+
+a* → aparece 0 o más veces
+
+a+ → aparece 1 o más veces
+
+a{1,4} → entre 1 y 4 veces
+
+a{2,} → al menos 2 veces
+
+a{5} → exactamente 5 veces
+
+Estos cuantificadores también se aplican a conjuntos:
+
+[a-z]{1,4}[0-9]+ → de 1 a 4 letras minúsculas seguidas de uno o más números.

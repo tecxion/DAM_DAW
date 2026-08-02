@@ -1,6 +1,6 @@
-# 📚 Repositorio de Prácticas y Colaboración | FPDRioja - DAM & DAW
+# 📚 Repositorio de Prácticas y Colaboración | FPD Rioja - DAM & DAW
 
-¡Bienvenido/a al espacio colaborativo de los estudiantes de **Desarrollo de Aplicaciones Multiplataforma (DAM)** y **Desarrollo de Aplicaciones Web (DAW)** de **FPDRioja**!
+¡Bienvenido/a al espacio colaborativo de los estudiantes de **Desarrollo de Aplicaciones Multiplataforma (DAM)** y **Desarrollo de Aplicaciones Web (DAW)** de **FPD Rioja**!
 
 Este repositorio está diseñado para ser un punto central donde podrás:
 
@@ -22,7 +22,7 @@ Opción A. Usando tu PC.
     ```
 2.  **Crea una nueva rama** para tus trabajos o para el proyecto en el que vayas a colaborar.
     ```bash
-    git checkout -b tu-nombre/nombre-del-proyecto
+    git switch -c tu-nombre/nombre-del-proyecto
     ```
 3.  **Realiza tus cambios y añade tus archivos.**
 4.  **Haz commits** de tus progresos con mensajes claros.
@@ -44,9 +44,9 @@ Si trabajas desde GitHub puedes hacer lo siguiente.
 ⚠️ El GitHub está organizado por asignaturas, en la carpeta General se añaden recursos o material que pueda ayudar a estudiar, comprender... la asignatura.
 
 > [!IMPORTANT]
-> si esa asignatura no tiene material aún, crea en tu repositorio una carpeta con el nombre "General" y añade ahí el material que creas oportuno y posteriormente sincroniza el GitHub.
+> Si esa asignatura no tiene material aún, crea en tu repositorio una carpeta con el nombre "General" y añade ahí el material que creas oportuno y posteriormente sincroniza el GitHub.
 
-Para añadir material de las tareas creado por tí es tan sencillo como agregarlo al año del curso y crear una carpeta con tu nick o algo que te identifique, 
+Para añadir material de las tareas creado por ti es tan sencillo como agregarlo al año del curso y crear una carpeta con tu nick o algo que te identifique, 
 
 > [!NOTE]
 > Ej: 2024-2025/epena602a
@@ -74,6 +74,7 @@ para que sea identificable por el resto de compañeros y asi poder comparar unas
 - [DWES - Desarrollo web en entorno servidor](./Asignaturas/DWES/README.md)
 - [DIW - Desarrollo de interfaces web](./Asignaturas/DIW/README.md)
 - [DAC - Despliegue de aplicaciones con contenedores](./Asignaturas/DAC/README.md)
+- [DAW - Despliegue de aplicaciones Web](./Asignaturas/DAW/README.md)
 
 > [!NOTE]
 > Además se ha añadido una carpeta por si queréis compartir vuestros proyectos fin de Curso.
@@ -104,7 +105,3 @@ Tu participación es clave para enriquecer este recurso. Anímate a:
 
 ⚠️ Añade tus proyectos, para que otros alumnos tomen ideas y puedan ver lo que se puede realizar una vez terminado el Módulo. 
 [Proyectos](./Asignaturas/PROYECTOS/README.md)
-
-
-
-

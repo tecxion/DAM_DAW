@@ -1,0 +1,7 @@
+alimentacion;pera;0.60;8
+alimentacion;mermelada;1.20;15
+alimentacion;leche;1.50;12
+
+higiene;dentrífico;1.95;false
+higiene;papel;1.75;false
+higiene;lejía;1.30;true

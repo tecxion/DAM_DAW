@@ -1,1 +1,13 @@
+# IDEs
+.vscode
+.idea
+
+# Variables de entorno & Datos
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# Sistema
 .DS_Store
+Thumbs.db

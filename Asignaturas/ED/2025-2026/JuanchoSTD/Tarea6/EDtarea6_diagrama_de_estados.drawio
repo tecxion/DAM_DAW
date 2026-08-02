@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="vL4KHM0D2StPZ4lF1Kv-">
+    <mxGraphModel dx="1821" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" value="Diagrama de Estados — Ciclo de Vida de un Correo Electrónico" vertex="1">
+          <mxGeometry height="40" width="870" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="initial" parent="1" style="ellipse;aspect=fixed;fillColor=#1a1a2e;strokeColor=#1a1a2e;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="564" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="borrador" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;BORRADOR&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="504" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="enviado" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;ENVIADO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="504" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="entregado" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;ENTREGADO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="504" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="leido" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;LEÍDO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="504" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="archivado" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;ARCHIVADO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="160" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="eliminado" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;ELIMINADO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="910" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="initial" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#1a1a2e;fontColor=#1a1a2e;fontSize=11;" target="borrador" value="crear correo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="borrador" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#1a1a2e;fontSize=11;fontStyle=1;" target="enviado" value="enviar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="enviado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#82b366;fontColor=#1a1a2e;fontSize=11;fontStyle=1;" target="entregado" value="entrega exitosa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="entregado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#d6b656;fontColor=#1a1a2e;fontSize=11;fontStyle=1;" target="leido" value="abrir correo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="leido" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.75;strokeColor=#9673a6;fontColor=#1a1a2e;fontSize=11;fontStyle=1;exitDx=0;exitDy=0;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="archivado" value="archivar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="571" />
+            </Array>
+            <mxPoint x="120" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="entregado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;fontStyle=1;" target="eliminado" value="eliminar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="leido" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.192;entryY=-0.031;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;fontStyle=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="eliminado" value="eliminar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="558" />
+              <mxPoint x="1099" y="557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="borrador" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="eliminado" value="descartar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="200" />
+              <mxPoint x="1030" y="200" />
+            </Array>
+            <mxPoint x="690" y="200" as="sourcePoint" />
+            <mxPoint x="861" y="677.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="archivado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;fontStyle=1;" target="eliminado" value="eliminar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="archivado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;strokeColor=#1a1a2e;fontColor=#1a1a2e;fontSize=11;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="0z7ivLWFXD3Gmf3GXkYF-1" value="email archivado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="885" />
+            </Array>
+            <mxPoint x="210" y="830" as="sourcePoint" />
+            <mxPoint x="539" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="eliminado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;entryDx=0;entryDy=0;" target="0z7ivLWFXD3Gmf3GXkYF-1" value="email eliminado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="820" />
+              <mxPoint x="580" y="820" />
+            </Array>
+            <mxPoint x="594" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="enviado" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0z7ivLWFXD3Gmf3GXkYF-4" value="fallo de entrega / rebote">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1195" y="318" />
+            </Array>
+            <mxPoint x="1240" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="archivado" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.25;strokeColor=#9673a6;fontColor=#1a1a2e;fontSize=11;dashed=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="leido" value="restaurar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="544" />
+            </Array>
+            <mxPoint x="80" y="720" as="sourcePoint" />
+            <mxPoint x="495.1" y="470.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z7ivLWFXD3Gmf3GXkYF-1" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="564" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="0z7ivLWFXD3Gmf3GXkYF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontColor=#1a1a2e;arcSize=30;strokeWidth=2;" value="&lt;b&gt;ENVIAR MAIL DE NOTIFICACIÓN DE FALLO DE ENTREGA&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="1120" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0z7ivLWFXD3Gmf3GXkYF-5" edge="1" parent="1" source="0z7ivLWFXD3Gmf3GXkYF-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;strokeColor=#b85450;fontColor=#1a1a2e;fontSize=11;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="0z7ivLWFXD3Gmf3GXkYF-1" value="email de fallo">
+          <mxGeometry relative="1" x="0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1195" y="885" />
+            </Array>
+            <mxPoint x="1501" y="940" as="sourcePoint" />
+            <mxPoint x="1110" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
